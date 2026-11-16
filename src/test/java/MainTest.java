@@ -115,7 +115,7 @@ public class MainTest {
     @Test
     public void testCuboidTypes() throws NoSuchFieldException {
         assertThat(cuboid, instanceOf(Rectangle.class));
-        assertThat(cuboid.getHeight(), instanceOf(Number.class));
+        assertThat(cuboid.getLength(), instanceOf(Number.class));
     }
 
     @DisplayName("getVolume methodu Cuboid sınıfında doğru çalışıyor mu?")
