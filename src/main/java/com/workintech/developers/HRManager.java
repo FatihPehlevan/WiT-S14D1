@@ -2,9 +2,9 @@ package com.workintech.developers;
 
 public class HRManager extends Employee{
 
-    private JuniorDeveloper[] juniorDevelopers;
-    private MidDeveloper[] midDevelopers;
-    private SeniorDeveloper[] seniorDevelopers;
+    private JuniorDeveloper[] juniorDevelopers = new JuniorDeveloper[5];
+    private MidDeveloper[] midDevelopers = new MidDeveloper[5];
+    private SeniorDeveloper[] seniorDevelopers = new SeniorDeveloper[5];
 
     public HRManager(long id, String name, double salary) {
         super(id, name, salary);
